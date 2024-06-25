@@ -1,0 +1,76 @@
+body{
+    background-image:url(desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center ;
+    height:100vh;
+    margin:0;
+}
+#weather-container{
+    background:rgba(255,255,255,0.3);
+    max-width:400px;
+    padding:40px;
+    border-radius:15px;
+    border:1px solid rgba(255,255,0.1);
+    text-align:center;
+    height:83%;
+
+}
+input{
+    padding:8px;
+    box-sizing:border-box;
+    border-radius:10px;
+    border:1px solid white;
+    margin-top:20px;
+}
+button{
+    background:#debff4;
+    color:white;
+    padding:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin-top:20px;
+    width:100px;
+    font-size:15px;
+}
+button:hover{
+    background: #8b48d7;
+}
+
+h2,label,p{
+    color:#fff;
+    margin:8px 0;
+}
+
+#temp-div p {
+    font-size:50px;
+     margin-top:-30px; 
+}
+
+#weather-info{
+    font-size:25px;
+}
+
+#weather-icon{
+    width:200px;
+    height:200px;
+    margin:0 auto 10px;
+    margin-bottom:0;
+    display:none;
+}
+#humidity-info p {
+    font-size:20px;
+    
+}
+#wind-info p {
+    font-size:20px;
+    
+}
+#city-name p {
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:-20px;
+}
